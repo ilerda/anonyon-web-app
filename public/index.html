@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Anonyon</title>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.bundle.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+		<!-- Custom styles for this template -->
+    <link href="style1.css" rel="stylesheet">
+
+
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+					<a class="navbar-brand" id="brand1" href="index.html">
+        		<img alt="Brand" src="https://firebasestorage.googleapis.com/v0/b/anonyon-237a9.appspot.com/o/anonyonLogo5.jpg?alt=media&token=1cd84ac5-4915-4b8b-af3a-7a585036d138" height="30" width="30">
+      		</a>
+          <a class="navbar-brand" href="index.html">Anonyon</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="polls.html">Surveys</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Welcome to Anonyon</h1>
+				<p class="lead">View all relevant data from the latest surveys in an intuitive new way.</p>
+				<div class="row">
+				<div class="col-md-6 cont2">
+					<p class="lead"><!--We aim to collect information from a wide range of issues and present it all on this easy to use website. To find out more about our aims and methods read this <strong>article</strong>.--> Jump right in and view all our surveys <a href="polls.html">here</a>. If you have any feedback head on over to the <a href="about.html"> About page</a>.</p>
+					<p class="lead">We will soon post an article explaining how we process the data from publicly available surveys and the methods we use to present them. In the meantime we hope you enjoy the web app as it is!</p>
+				</div>
+				<div class="col-md-6 cont2">
+					<img src="https://firebasestorage.googleapis.com/v0/b/anonyon-237a9.appspot.com/o/trinityLibrary.jpg?alt=media&token=181c617c-a357-493f-92af-2c927f12b09f" width="70%">
+				</div>
+				</div>
+    </div><!-- /.container -->
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyCfzap4cU9PToanY1AQT_Lb0nuCxJfNJ_o",
+		    authDomain: "anonyon-237a9.firebaseapp.com",
+		    databaseURL: "https://anonyon-237a9.firebaseio.com",
+		    projectId: "anonyon-237a9",
+		    storageBucket: "anonyon-237a9.appspot.com",
+		    messagingSenderId: "331638497978"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+	</body>
+</html>

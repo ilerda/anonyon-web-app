@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "anonyonPolls" : {
+      ".read" : "true",
+      ".write" : "true"
+    },
+    "baseInfo" : {
+    ".read": "auth != null",
+      ".write": "auth != null",
+      "$question" : {
+        "$answer" : {
+          ".indexOn" : "count"
+        }
+      }
+    },
+    "meta" : {
+    ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "users": {
+    ".read": "auth != null",
+      "$uid": {
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    }
+  }
+}

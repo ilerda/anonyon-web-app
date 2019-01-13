@@ -1,0 +1,134 @@
+#floaty {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+#brand1 {
+  padding-top: 12px;
+}
+/*.poll-ul {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 40px;
+  list-style-type: none;
+}*/
+.poll-btn {
+  /*margin-bottom: 20px;*/
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  /*margin-top: 40px;
+  list-style-type: none;
+  color: #1a0dab;
+  cursor: pointer;*/
+}
+/*.poll-btn:hover {
+  text-decoration: underline;
+}*/
+@media (min-width: 768px) {
+  .poll-btn {
+    font-size: 19px;
+  }
+}
+.cont1 {
+  border: 2px solid #999;
+  min-height: 400px;
+}
+.cont2 {
+  padding-top: 30px;
+}
+.q-ol {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+  margin-top: 30px;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+.q-li {
+  margin-bottom: 15px;
+	border: 1px solid #000000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.q-li-def:hover {
+  /*#999*/
+  background-color: #31b0d5;
+}
+.q-li-def {
+  background-color: #5bc0de;
+}
+.q-li-clicked {
+  background-color: #5cb85c;
+}
+/*.q-li:active {
+  background-color: #5cb85c;
+}*/
+#block2 {
+  padding-top: 30px;
+}
+#source1 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+#secondInfo {
+  padding-top: 30px;
+}
+.chartHolder {
+	height: 300px;
+	/*width: 300px;*/
+}
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/*@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+*/
