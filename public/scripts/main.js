@@ -2,8 +2,6 @@
 
 function Anonyon() {
 
-  //this.test1 = document.getElementById("tButt");
-  //this.test1.addEventListener('click', this.dothing.bind(this));
 
   this.survey1 = document.getElementById("survey1");
   this.survey2 = document.getElementById("survey2");
@@ -15,17 +13,8 @@ function Anonyon() {
   this.SubmitCorr = document.getElementById("submitCorr");
   this.source1 = document.getElementById("Source");
 
-  /*
-  this.Q1 = document.getElementById("q1");
-	this.Q2 = document.getElementById("q2");
-	this.Q3 = document.getElementById("q3");
-	this.Q4 = document.getElementById("q4");
-	this.Q5 = document.getElementById("q5");*/
-  //this.qItems = document.getElementsByClassName("list1");
-
   this.survey1.addEventListener('click', this.toggleFirst.bind(this));
   this.survey2.addEventListener('click', this.toggleSecond.bind(this));
-  //this.survey3.addEventListener('click', this.toggleThird.bind(this));
   this.SubmitCorr.addEventListener('click', this.displayCorell.bind(this));
 
   //this.Q1.addEventListener('click', this.toggleQuestion('q1').bind(this))
